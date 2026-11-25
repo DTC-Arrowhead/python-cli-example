@@ -20,3 +20,6 @@ jobs:
 
       - name: Display currentuser
         run: whoami
+
+      - name: Display GitHub User
+        run: echo "Triggered by ${{ github.actor }}"
