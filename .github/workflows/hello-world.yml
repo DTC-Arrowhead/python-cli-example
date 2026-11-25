@@ -17,3 +17,6 @@ jobs:
 
       - name: Display Success
         run: echo "Workflow completed successfully!"
+
+      - name: Display currentuser
+        run: whoami
